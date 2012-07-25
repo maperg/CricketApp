@@ -9,6 +9,7 @@
 #import "CricketAppViewController.h"
 
 @implementation CricketAppViewController
+@synthesize ScrollerView;
 
 - (IBAction)homeTeamEntered:(id)sender {
     
@@ -18,4 +19,12 @@
     
 }
 
+- (IBAction)matchDate:(id)sender {
+	
+}
+
+- (void)viewDidUnload {
+	[self setScrollerView:nil];
+	[super viewDidUnload];
+}
 @end
