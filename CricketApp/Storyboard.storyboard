@@ -25,7 +25,7 @@
                     <tabBarItem key="tabBarItem" title="Item 2" id="dXM-TR-9Vg"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="116" y="-1339"/>
+            <point key="canvasLocation" x="84" y="-1341"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
