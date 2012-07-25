@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 Bristol University. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface CricketAppViewController : NSObject
+@interface CricketAppViewController : UIViewController
 
 @end
