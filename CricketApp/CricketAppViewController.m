@@ -10,5 +10,12 @@
 
 @implementation CricketAppViewController
 
+- (IBAction)homeTeamEntered:(id)sender {
+    
+}
+
+- (IBAction)awayTeamEntered:(id)sender {
+    
+}
 
 @end
