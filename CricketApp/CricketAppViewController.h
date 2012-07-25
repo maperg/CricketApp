@@ -10,5 +10,8 @@
 
 @interface CricketAppViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIScrollView *ScrollerView;
+@property (strong, nonatomic) IBOutlet UIToolbar *saveButtonBar;
+@property (strong, nonatomic) IBOutlet UINavigationBar *navigationBar;
+@property (strong, nonatomic) IBOutlet UIPickerView *gameTypePicker;
 
 @end

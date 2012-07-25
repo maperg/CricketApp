@@ -10,6 +10,9 @@
 
 @implementation CricketAppViewController
 @synthesize ScrollerView;
+@synthesize saveButtonBar;
+@synthesize navigationBar;
+@synthesize gameTypePicker;
 
 - (IBAction)homeTeamEntered:(id)sender {
     
@@ -23,8 +26,19 @@
 	
 }
 
+- (IBAction)saveAndShareButton:(id)sender {
+}
+
+- (IBAction)saveButton:(id)sender {
+	
+}
+
+
 - (void)viewDidUnload {
 	[self setScrollerView:nil];
+	[self setSaveButtonBar:nil];
+	[self setNavigationBar:nil];
+	[self setGameTypePicker:nil];
 	[super viewDidUnload];
 }
 @end
