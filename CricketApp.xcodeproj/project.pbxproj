@@ -15,6 +15,7 @@
 		9F2A663815BFEC6D00FA4A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A663715BFEC6D00FA4A9F /* main.m */; };
 		9F2A663C15BFEC6D00FA4A9F /* CricketAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A663B15BFEC6D00FA4A9F /* CricketAppAppDelegate.m */; };
 		9F2A663F15BFEC6D00FA4A9F /* CricketApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A663D15BFEC6D00FA4A9F /* CricketApp.xcdatamodeld */; };
+		9F2A664615C0030700FA4A9F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2A664515C0030700FA4A9F /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9F2A663A15BFEC6D00FA4A9F /* CricketAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CricketAppAppDelegate.h; sourceTree = "<group>"; };
 		9F2A663B15BFEC6D00FA4A9F /* CricketAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricketAppAppDelegate.m; sourceTree = "<group>"; };
 		9F2A663E15BFEC6D00FA4A9F /* CricketApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CricketApp.xcdatamodel; sourceTree = "<group>"; };
+		9F2A664515C0030700FA4A9F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9F2A663A15BFEC6D00FA4A9F /* CricketAppAppDelegate.h */,
 				9F2A663B15BFEC6D00FA4A9F /* CricketAppAppDelegate.m */,
 				9F2A663D15BFEC6D00FA4A9F /* CricketApp.xcdatamodeld */,
+				9F2A664515C0030700FA4A9F /* Storyboard.storyboard */,
 				9F2A663215BFEC6D00FA4A9F /* Supporting Files */,
 			);
 			path = CricketApp;
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2A663615BFEC6D00FA4A9F /* InfoPlist.strings in Resources */,
+				9F2A664615C0030700FA4A9F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
