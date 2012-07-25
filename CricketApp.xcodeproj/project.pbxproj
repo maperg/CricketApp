@@ -23,11 +23,11 @@
 		9F2A662B15BFEC6D00FA4A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F2A662D15BFEC6D00FA4A9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9F2A662F15BFEC6D00FA4A9F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		9F2A663315BFEC6D00FA4A9F /* CricketApp-Info.plist */ = {isa = PBXFileReference; path = "CricketApp-Info.plist"; sourceTree = "<group>"; };
+		9F2A663315BFEC6D00FA4A9F /* CricketApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CricketApp-Info.plist"; sourceTree = "<group>"; };
 		9F2A663515BFEC6D00FA4A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F2A663715BFEC6D00FA4A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F2A663915BFEC6D00FA4A9F /* CricketApp-Prefix.pch */ = {isa = PBXFileReference; path = "CricketApp-Prefix.pch"; sourceTree = "<group>"; };
-		9F2A663A15BFEC6D00FA4A9F /* CricketAppAppDelegate.h */ = {isa = PBXFileReference; path = CricketAppAppDelegate.h; sourceTree = "<group>"; };
+		9F2A663915BFEC6D00FA4A9F /* CricketApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CricketApp-Prefix.pch"; sourceTree = "<group>"; };
+		9F2A663A15BFEC6D00FA4A9F /* CricketAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CricketAppAppDelegate.h; sourceTree = "<group>"; };
 		9F2A663B15BFEC6D00FA4A9F /* CricketAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricketAppAppDelegate.m; sourceTree = "<group>"; };
 		9F2A663E15BFEC6D00FA4A9F /* CricketApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CricketApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,7 +230,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CricketApp/CricketApp-Prefix.pch";
 				INFOPLIST_FILE = "CricketApp/CricketApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -241,7 +243,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CricketApp/CricketApp-Prefix.pch";
 				INFOPLIST_FILE = "CricketApp/CricketApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
