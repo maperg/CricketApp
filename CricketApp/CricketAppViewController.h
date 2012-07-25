@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CricketAppViewController : UIView
+@interface CricketAppViewController : UIViewController
 
 @end

@@ -15,8 +15,8 @@
 		9F2A663815BFEC6D00FA4A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A663715BFEC6D00FA4A9F /* main.m */; };
 		9F2A663C15BFEC6D00FA4A9F /* CricketAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A663B15BFEC6D00FA4A9F /* CricketAppAppDelegate.m */; };
 		9F2A663F15BFEC6D00FA4A9F /* CricketApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A663D15BFEC6D00FA4A9F /* CricketApp.xcdatamodeld */; };
-		9F2A664615C0030700FA4A9F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2A664515C0030700FA4A9F /* Storyboard.storyboard */; };
-		9F2A665215C00D0400FA4A9F /* CricketAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A665115C00D0400FA4A9F /* CricketAppViewController.m */; };
+		9FBC9F9E15C0379900CDBC4A /* CricketAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC9F9D15C0379900CDBC4A /* CricketAppViewController.m */; };
+		9FBC9FA015C037D900CDBC4A /* FirstScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FBC9F9F15C037D900CDBC4A /* FirstScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +32,9 @@
 		9F2A663A15BFEC6D00FA4A9F /* CricketAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CricketAppAppDelegate.h; sourceTree = "<group>"; };
 		9F2A663B15BFEC6D00FA4A9F /* CricketAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricketAppAppDelegate.m; sourceTree = "<group>"; };
 		9F2A663E15BFEC6D00FA4A9F /* CricketApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CricketApp.xcdatamodel; sourceTree = "<group>"; };
-		9F2A664515C0030700FA4A9F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		9F2A665015C00D0400FA4A9F /* CricketAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricketAppViewController.h; sourceTree = "<group>"; };
-		9F2A665115C00D0400FA4A9F /* CricketAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricketAppViewController.m; sourceTree = "<group>"; };
+		9FBC9F9C15C0379900CDBC4A /* CricketAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CricketAppViewController.h; sourceTree = "<group>"; };
+		9FBC9F9D15C0379900CDBC4A /* CricketAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CricketAppViewController.m; sourceTree = "<group>"; };
+		9FBC9F9F15C037D900CDBC4A /* FirstScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +85,10 @@
 			children = (
 				9F2A663A15BFEC6D00FA4A9F /* CricketAppAppDelegate.h */,
 				9F2A663B15BFEC6D00FA4A9F /* CricketAppAppDelegate.m */,
+				9FBC9F9C15C0379900CDBC4A /* CricketAppViewController.h */,
+				9FBC9F9D15C0379900CDBC4A /* CricketAppViewController.m */,
+				9FBC9F9F15C037D900CDBC4A /* FirstScreen.xib */,
 				9F2A663D15BFEC6D00FA4A9F /* CricketApp.xcdatamodeld */,
-				9F2A664515C0030700FA4A9F /* Storyboard.storyboard */,
-				9F2A665015C00D0400FA4A9F /* CricketAppViewController.h */,
-				9F2A665115C00D0400FA4A9F /* CricketAppViewController.m */,
 				9F2A663215BFEC6D00FA4A9F /* Supporting Files */,
 			);
 			path = CricketApp;
@@ -157,7 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2A663615BFEC6D00FA4A9F /* InfoPlist.strings in Resources */,
-				9F2A664615C0030700FA4A9F /* Storyboard.storyboard in Resources */,
+				9FBC9FA015C037D900CDBC4A /* FirstScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +171,7 @@
 				9F2A663815BFEC6D00FA4A9F /* main.m in Sources */,
 				9F2A663C15BFEC6D00FA4A9F /* CricketAppAppDelegate.m in Sources */,
 				9F2A663F15BFEC6D00FA4A9F /* CricketApp.xcdatamodeld in Sources */,
-				9F2A665215C00D0400FA4A9F /* CricketAppViewController.m in Sources */,
+				9FBC9F9E15C0379900CDBC4A /* CricketAppViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
